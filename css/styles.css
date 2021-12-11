@@ -177,9 +177,36 @@ footer{
 
 @media (max-width: 800px){
     .etapa{
-        width: 80%;
+        width: 90%;
     } 
-    main{
-        background-color: yellow;
+    .titulo{
+        font-size: 20px;
+    }
+    .nameEtapa{
+        width: 70%;
+        
+        
+        font-size: 20px;
+        left: 15%;
+        padding: 10px;
+    } 
+    
+    .a{
+        top:12%
+    }
+    .b{
+        top:28%
+    }
+    .c{
+        top:46%
+    }
+    .d{
+        top:62%
+    }
+    .e{
+        top:78%
+    }
+    .f{
+        top:95%
     }
 }
