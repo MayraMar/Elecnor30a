@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+ .logoNav {
+     background-color: #c9c9c9;
+    /*color: #383838;
+    display: flex;
+    justify-content:space-between; */
+    align-items:center;
+    padding:8px 20px;
+    /* justify-content: space-evenly; */
+    
+}
+
+
+
+.logo {
+    background-color: #c9c9c9;
+    color: #383838;
+    position:relative;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    width:120px;
+}
+
+.logo .fecha{
+    font-size: 12px;
+}
+
+header nav ul.navSup{
+    display: flex;
+}
+
+header .sub{
+    text-align: center;
+    color: #383838;
+    background-color: #c0c0c0;
+    padding: 5px 0;
+}
+main{
+    
+    background-color: #e5e5e5;
+    padding: 20px 35px;
+    /* justify-content: space-evenly;
+    justify-items: center; */
+}
+
+.etapa{
+    width: 50%;
+    text-align: center;
+}
+
+.delivery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ position: relative;
+ width:100%;
+ align-items: center;
+}
+
+.delivery img{
+    padding:10px;
+    width: 80%;
+    
+}
+
+.nameEtapa{
+    position: absolute;
+    
+    
+    color:black;
+    font-size: 24px;
+    background-color: whitesmoke;
+    padding: 15px;
+} 
+
+.izq{
+    left: 18%;
+}
+.der{
+    left: 68%;
+}
+
+.uno{
+    top:200px;
+}
+.dos{
+    top:525px;
+}
+
+.tres{
+    top:850px;
+}
+
+main .delivery .moto {
+    width: 45%;
+}
+
+ /* 
+.delivery div span{
+    color:#f2f2f2;
+}
+
+.podio{
+    width:490px; 
+    background-color: #ffffff; 
+    padding: 26px 74px 30px 70px;
+    position: relative;
+}
+.podio h2 {
+    color:red;
+    font-size: 24px;
+    text-align: center;
+}
+.topFoto{
+    padding-top:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top5 h3{
+    font-size: 20px;
+    padding-bottom:8px;
+}
+
+.top5 ol li{
+    font-size: 16px;
+    padding-top:2px;
+} */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #c9c9c9;
+    color: #383838;
+    height: 100px;
+}
+
+.icons a{
+    font-size: 18px;
+    color: black;
+    padding: 35px 20px;
+    
+}
+.fotosMayra{
+    height: 45px;
+}
+
+.logoYmedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+/* @media (max-width:800px){
+    .etapa{
+        width: 80%;
+    } 
+} */
