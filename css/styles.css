@@ -209,4 +209,7 @@ footer{
     .f{
         top:95%
     }
+    main .delivery .moto {
+        width: 90%;
+    }
 }
