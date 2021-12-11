@@ -83,7 +83,7 @@ main{
 
 .nameEtapa{
     position: absolute;
-    
+    width: 36%;
     
     color:black;
     font-size: 24px;
@@ -92,21 +92,21 @@ main{
 } 
 
 .izq{
-    left: 18%;
+    left: 7%;
 }
 .der{
-    left: 68%;
+    left: 57%;
 }
 
 .uno{
-    top:200px;
+    top:20%;
 }
 .dos{
-    top:525px;
+    top:55%;
 }
 
 .tres{
-    top:850px;
+    top:88%;
 }
 
 main .delivery .moto {
@@ -175,8 +175,11 @@ footer{
     height: 100%;
 }
 
-/* @media (max-width:800px){
+@media (max-width: 800px){
     .etapa{
         width: 80%;
     } 
-} */
+    main{
+        background-color: yellow;
+    }
+}
