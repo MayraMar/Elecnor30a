@@ -33,10 +33,11 @@ body {
     align-items: center;
     font-size: 24px;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .logo img {
-    width:120px;
+    width:15%;
 }
 
 .logo .fecha{
@@ -167,7 +168,7 @@ footer{
     
 }
 .fotosMayra{
-    height: 45px;
+    height: 40%;
 }
 
 .logoYmedia{
@@ -179,6 +180,15 @@ footer{
 }
 
 @media (max-width: 800px){
+    .logo {
+        font-size: 18px;
+    }
+    .logo p{
+        padding: 10px;
+    }
+    .logo img {
+        width:20%;
+    }
     .etapa{
         width: 90%;
     } 
