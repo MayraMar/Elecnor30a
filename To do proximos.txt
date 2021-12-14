@@ -1,0 +1,2 @@
+- podrian ser mas anchas las imagenes en Mobile
+-Corregir tamaños de texto en mobile
